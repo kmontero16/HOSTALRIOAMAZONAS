@@ -15,12 +15,14 @@ and open the template in the editor.
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link href="css/estiloprincipal.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="General">
             <div id="Cabecera">
-                Cabecera
+                
+                <h1>Hostal Rio Amazonas</h1>
             </div>
             <div id="Menu">
                 <?php include './Menu.php';?>

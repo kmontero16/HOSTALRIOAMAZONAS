@@ -8,15 +8,20 @@ and open the template in the editor.
     Author     : cetecom
 */
 
+
 #General{
     margin:0px;
     padding:0px;
+    
 }
 #Cabecera{
     width: 100%;
     height: 150px;
     background-color: lightblue;
     float: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #Menu{
     width: 20%;
@@ -29,6 +34,11 @@ and open the template in the editor.
     height: 600px;
     background-color: lightcoral;
     float:right; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Roboto', sans-serif;
+    
 }
 #PiePagina{
     width: 100%;
@@ -40,5 +50,12 @@ and open the template in the editor.
     
 }
 #Centro{
+    
+}
+h1 {
+    color:blue;
+    font-size: 30px; 
+    font-weight: bold;
+    
     
 }
