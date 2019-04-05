@@ -46,13 +46,18 @@ and open the template in the editor.
     float: bottom;
 }
 #contenidoEspecifico{
-    
+   
 }
 
-h1 {
+h1{
     color:blue;
     font-size: 30px; 
-    font-weight: bold;
+    font-weight: bold;    
     
-    
+}
+h3{
+    color:black;
+    font-size:15px;
+    font-weight: bold; 
+    text-align: center;
 }

@@ -4,7 +4,7 @@ include '../lib/constantes.php';
 <script type="text/javascript" src="../hostalrioamazonas/contenido/ReservationOK.php"></script>
 <html>
     <div id="contenidoEspecifico">
-        <form action="../hostalrioamazonas/contenido/ReservationOK.php" id="form" method="post">
+        <form action="../hostalrioamazonas/contenido/ReservationOK.php" id="form1" method="post" target="realizado" >
             <table border="1">
                 <tbody>
                     <tr>
@@ -48,12 +48,26 @@ include '../lib/constantes.php';
                 </tbody>
             </table>
         </form>
+        <iframe frameBorder="0" name="realizado" height="60%" width="800px">
+            
+        </iframe>
     </div>
-    <script>
+    <script type="text/javascript">
+        
+    </script>
+
+
+    <!--<script>
         $(document).on("click","#form", Invocar);
         function Invocar(){
           $("#Contenido").load('<?=URLBASE;?>contenido/ReservationOK.PHP');
         }
         
     </script>
+        <script>
+        $("#form1").on("submit", function(){
+            reset;
+            
+        })
+    </script>-->
 </html>

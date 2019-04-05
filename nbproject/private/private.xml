@@ -5,7 +5,7 @@
             <url>contenido/RESERVATION.php</url>
             <bookmark id="1">
                 <name/>
-                <line>33</line>
+                <line>31</line>
                 <key/>
             </bookmark>
         </file>
@@ -14,8 +14,9 @@
         <group>
             <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/contenido/RESERVATION.php</file>
             <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/lib/constantes.php</file>
-            <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/CSS/EstiloPrincipal.css</file>
             <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/contenido/ReservationOK.php</file>
+            <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/CSS/EstiloPrincipal.css</file>
+            <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/index.php</file>
             <file>file:/C:/xampp/htdocs/DAI/HOSTALRIOAMAZONAS/Menu.php</file>
         </group>
     </open-files>

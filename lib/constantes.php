@@ -1,4 +1,5 @@
 <?php
+session_start();
 echo "<title> HOSTALRIOAMAZONAS RESERVATION ONLINE</title>";
 define('URLBASE','http://localhost/DAI/HOSTALRIOAMAZONAS/');
 /* 
