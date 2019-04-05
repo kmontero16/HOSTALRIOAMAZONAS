@@ -7,15 +7,12 @@ $reservationLenguaje = $_POST['lenguaje'];
 $reservationDateIn = $_POST['dateIn'];
 $reservationDateOut = $_POST['dateOut'];
 
-echo $reservationName;
-echo $reservationEmail;
-echo $reservationRegion;
-echo $reservationLenguaje;
-echo $reservationDateIn;
-echo $reservationDateOut;
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+echo $reservationName."</br>";
+echo $reservationEmail."</br>";
+echo $reservationRegion."</br>";
+echo $reservationLenguaje."</br>";
+echo $reservationDateIn."</br>";
+echo $reservationDateOut."</br>";
+echo "hola </br> 123 </br> probando";
+?>
 

@@ -1,9 +1,10 @@
 <?php
 include '../lib/constantes.php';
 ?>
+<script type="text/javascript" src="../hostalrioamazonas/contenido/ReservationOK.php"></script>
 <html>
     <div id="contenidoEspecifico">
-        <form action="../hostalrioamazonas/contenido/ReservationOK.php" method="post">
+        <form action="../hostalrioamazonas/contenido/ReservationOK.php" id="form" method="post">
             <table border="1">
                 <tbody>
                     <tr>
@@ -40,7 +41,6 @@ include '../lib/constantes.php';
                         <td><input type="date" id="dateOut" name="dateOut"></td>
                     </tr>
                     <tr>
-                        
                         <td colspan="2" align="center">
                             <input type="submit" id="sub" value="Register">
                         </td>
@@ -49,4 +49,11 @@ include '../lib/constantes.php';
             </table>
         </form>
     </div>
+    <script>
+        $(document).on("click","#form", Invocar);
+        function Invocar(){
+          $("#Contenido").load('<?=URLBASE;?>contenido/ReservationOK.PHP');
+        }
+        
+    </script>
 </html>

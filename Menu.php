@@ -6,17 +6,17 @@
 <script type="text/javascript"> 
     $(document).ready(function() { 
         $("#pagHome").click(function(event) { 
-        $("#Contenido").load('<?=URLBASE;?>contenido/HOME.PHP');
+            $("#Contenido").load('<?=URLBASE;?>contenido/HOME.PHP');
         }); 
     }); 
     $(document).ready(function() { 
         $("#pagAboutChile").click(function(event) { 
-        $("#Contenido").load('<?=URLBASE;?>contenido/ABOUTCHILE.PHP');
+            $("#Contenido").load('<?=URLBASE;?>contenido/ABOUTCHILE.PHP');
         }); 
     }); 
     $(document).ready(function() { 
         $("#pagReservation").click(function(event) { 
-        $("#Contenido").load('<?=URLBASE;?>contenido/RESERVATION.PHP');
+            $("#Contenido").load('<?=URLBASE;?>contenido/RESERVATION.PHP');
         }); 
     }); 
 </script>
